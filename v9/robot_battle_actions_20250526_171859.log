@@ -1,0 +1,709 @@
+===== ROBOT BATTLE ACTION LOG =====
+Timestamp: 20250526_171859
+====================================
+SETUP: Battlefield initialized with size 10x10
+SETUP: Simulation will run for 20 steps
+SPAWN: Kidd created at position (3,6) with 3 lives and 10 shells
+SPAWN: John created at position (3,7) with 3 lives and 10 shells
+SPAWN: Elle created at position (4,6) with 3 lives and 10 shells
+SPAWN: Star created at position (7,6) with 3 lives and 10 shells
+SPAWN: Megan created at position (4,7) with 3 lives and 10 shells
+SPAWN: Ken created at position (1,3) with 3 lives and 10 shells
+SPAWN: Emma created at position (3,8) with 3 lives and 10 shells
+SPAWN: Freb created at position (3,5) with 3 lives and 10 shells
+SPAWN: Wendy created at position (9,4) with 3 lives and 10 shells
+SETUP: Total of 9 robots created
+Battlefield:
++----------+
+|..........|
+|...K......|
+|..........|
+|.....FKJE.|
+|......EM..|
+|..........|
+|..........|
+|......S...|
+|..........|
+|....W.....|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:10) at (3,6)
+John (Lives:3, Shells:10) at (3,7)
+Elle (Lives:3, Shells:10) at (4,6)
+Star (Lives:3, Shells:10) at (7,6)
+Megan (Lives:3, Shells:10) at (4,7)
+Ken (Lives:3, Shells:10) at (1,3)
+Emma (Lives:3, Shells:10) at (3,8)
+Freb (Lives:3, Shells:10) at (3,5)
+Wendy (Lives:3, Shells:10) at (9,4)
+=== SIMULATION START ===
+--- STEP 1 ---
+SHOOT: Kidd shoots left down from (3,6) targeting (4,5) - Hit empty space
+THINK: John is thinking strategically at position (3,7)
+MOVE: Elle moved from (4,6) to (5,5) - Direction: 6
+LOOK: Star looks around (7,6) - No enemies detected
+THINK: Megan is thinking strategically at position (4,7)
+MOVE: Ken moved from (1,3) to (0,4) - Direction: 5
+LOOK: Emma looks around (3,8) - Found enemies: John at (3,7), Megan at (4,7)
+LOOK: Freb looks around (3,5) - Found enemies: Kidd at (3,6)
+MOVE: Wendy moved from (9,4) to (8,3) - Direction: 4
+Battlefield:
++----------+
+|....K.....|
+|..........|
+|..........|
+|.....FKJE.|
+|.......M..|
+|.....E....|
+|..........|
+|......S...|
+|...W......|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:9) at (3,6)
+John (Lives:3, Shells:10) at (3,7)
+Elle (Lives:3, Shells:10) at (5,5)
+Star (Lives:3, Shells:10) at (7,6)
+Megan (Lives:3, Shells:10) at (4,7)
+Ken (Lives:3, Shells:10) at (0,4)
+Emma (Lives:3, Shells:10) at (3,8)
+Freb (Lives:3, Shells:10) at (3,5)
+Wendy (Lives:3, Shells:10) at (8,3)
+--- STEP 2 ---
+THINK: Kidd is thinking strategically at position (3,6)
+SHOOT: John shoots right down from (3,7) targeting (4,8) - Hit empty space
+MOVE: Elle moved from (5,5) to (6,4) - Direction: 6
+SHOOT: Star shoots left from (7,6) targeting (7,5) - Hit empty space
+THINK: Megan is thinking strategically at position (4,7)
+SHOOT: Ken shoots left down from (0,4) targeting (1,3) - Hit empty space
+MOVE: Emma moved from (3,8) to (2,8) - Direction: 0
+MOVE: Freb moved from (3,5) to (4,4) - Direction: 6
+SHOOT: Wendy shoots up from (8,3) targeting (7,3) - Hit empty space
+Battlefield:
++----------+
+|....K.....|
+|..........|
+|........E.|
+|......KJ..|
+|....F..M..|
+|..........|
+|....E.....|
+|......S...|
+|...W......|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:9) at (3,6)
+John (Lives:3, Shells:9) at (3,7)
+Elle (Lives:3, Shells:10) at (6,4)
+Star (Lives:3, Shells:9) at (7,6)
+Megan (Lives:3, Shells:10) at (4,7)
+Ken (Lives:3, Shells:9) at (0,4)
+Emma (Lives:3, Shells:10) at (2,8)
+Freb (Lives:3, Shells:10) at (4,4)
+Wendy (Lives:3, Shells:9) at (8,3)
+--- STEP 3 ---
+THINK: Kidd is thinking strategically at position (3,6)
+THINK: John is thinking strategically at position (3,7)
+THINK: Elle is thinking strategically at position (6,4)
+SHOOT: Star shoots right down from (7,6) targeting (8,7) - Hit empty space
+MOVE: Megan moved from (4,7) to (4,6) - Direction: 2
+THINK: Ken is thinking strategically at position (0,4)
+MOVE: Emma moved from (2,8) to (1,8) - Direction: 0
+LOOK: Freb looks around (4,4) - No enemies detected
+MOVE: Wendy moved from (8,3) to (8,4) - Direction: 3
+Battlefield:
++----------+
+|....K.....|
+|........E.|
+|..........|
+|......KJ..|
+|....F.M...|
+|..........|
+|....E.....|
+|......S...|
+|....W.....|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:9) at (3,6)
+John (Lives:3, Shells:9) at (3,7)
+Elle (Lives:3, Shells:10) at (6,4)
+Star (Lives:3, Shells:8) at (7,6)
+Megan (Lives:3, Shells:10) at (4,6)
+Ken (Lives:3, Shells:9) at (0,4)
+Emma (Lives:3, Shells:10) at (1,8)
+Freb (Lives:3, Shells:10) at (4,4)
+Wendy (Lives:3, Shells:9) at (8,4)
+--- STEP 4 ---
+LOOK: Kidd looks around (3,6) - Found enemies: John at (3,7), Megan at (4,6)
+LOOK: John looks around (3,7) - Found enemies: Kidd at (3,6), Megan at (4,6)
+THINK: Elle is thinking strategically at position (6,4)
+THINK: Star is thinking strategically at position (7,6)
+LOOK: Megan looks around (4,6) - Found enemies: Kidd at (3,6), John at (3,7)
+LOOK: Ken looks around (0,4) - No enemies detected
+LOOK: Emma looks around (1,8) - No enemies detected
+THINK: Freb is thinking strategically at position (4,4)
+LOOK: Wendy looks around (8,4) - No enemies detected
+Battlefield:
++----------+
+|....K.....|
+|........E.|
+|..........|
+|......KJ..|
+|....F.M...|
+|..........|
+|....E.....|
+|......S...|
+|....W.....|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:9) at (3,6)
+John (Lives:3, Shells:9) at (3,7)
+Elle (Lives:3, Shells:10) at (6,4)
+Star (Lives:3, Shells:8) at (7,6)
+Megan (Lives:3, Shells:10) at (4,6)
+Ken (Lives:3, Shells:9) at (0,4)
+Emma (Lives:3, Shells:10) at (1,8)
+Freb (Lives:3, Shells:10) at (4,4)
+Wendy (Lives:3, Shells:9) at (8,4)
+--- STEP 5 ---
+MOVE: Kidd moved from (3,6) to (4,7) - Direction: 7
+LOOK: John looks around (3,7) - Found enemies: Megan at (4,6), Kidd at (4,7)
+THINK: Elle is thinking strategically at position (6,4)
+MOVE: Star moved from (7,6) to (7,5) - Direction: 2
+SHOOT: Megan shoots left down from (4,6) targeting (5,5) - Hit empty space
+LOOK: Ken looks around (0,4) - No enemies detected
+THINK: Emma is thinking strategically at position (1,8)
+THINK: Freb is thinking strategically at position (4,4)
+SHOOT: Wendy shoots right from (8,4) targeting (8,5) - Hit empty space
+Battlefield:
++----------+
+|....K.....|
+|........E.|
+|..........|
+|.......J..|
+|....F.MK..|
+|..........|
+|....E.....|
+|.....S....|
+|....W.....|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:9) at (4,7)
+John (Lives:3, Shells:9) at (3,7)
+Elle (Lives:3, Shells:10) at (6,4)
+Star (Lives:3, Shells:8) at (7,5)
+Megan (Lives:3, Shells:9) at (4,6)
+Ken (Lives:3, Shells:9) at (0,4)
+Emma (Lives:3, Shells:10) at (1,8)
+Freb (Lives:3, Shells:10) at (4,4)
+Wendy (Lives:3, Shells:8) at (8,4)
+--- STEP 6 ---
+SHOOT: Kidd shoots right from (4,7) targeting (4,8) - Hit empty space
+MOVE: John moved from (3,7) to (2,7) - Direction: 0
+SHOOT: Elle shoots up from (6,4) targeting (5,4) - Hit empty space
+SHOOT: Star shoots right from (7,5) targeting (7,6) - Hit empty space
+SHOOT: Megan shoots left down from (4,6) targeting (5,5) - Hit empty space
+SHOOT: Ken shoots right from (0,4) targeting (0,5) - Hit empty space
+THINK: Emma is thinking strategically at position (1,8)
+LOOK: Freb looks around (4,4) - No enemies detected
+SHOOT: Wendy shoots left up from (8,4) targeting (7,3) - Hit empty space
+Battlefield:
++----------+
+|....K.....|
+|........E.|
+|.......J..|
+|..........|
+|....F.MK..|
+|..........|
+|....E.....|
+|.....S....|
+|....W.....|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:8) at (4,7)
+John (Lives:3, Shells:9) at (2,7)
+Elle (Lives:3, Shells:9) at (6,4)
+Star (Lives:3, Shells:7) at (7,5)
+Megan (Lives:3, Shells:8) at (4,6)
+Ken (Lives:3, Shells:8) at (0,4)
+Emma (Lives:3, Shells:10) at (1,8)
+Freb (Lives:3, Shells:10) at (4,4)
+Wendy (Lives:3, Shells:7) at (8,4)
+--- STEP 7 ---
+SHOOT: Kidd shoots right up from (4,7) targeting (3,8) - Hit empty space
+THINK: John is thinking strategically at position (2,7)
+SHOOT: Elle shoots left up from (6,4) targeting (5,3) - Hit empty space
+THINK: Star is thinking strategically at position (7,5)
+SHOOT: Megan shoots down from (4,6) targeting (5,6) - Hit empty space
+SHOOT: Ken shoots right down from (0,4) targeting (1,5) - Hit empty space
+MOVE: Emma moved from (1,8) to (1,7) - Direction: 2
+LOOK: Freb looks around (4,4) - No enemies detected
+LOOK: Wendy looks around (8,4) - Found enemies: Star at (7,5)
+Battlefield:
++----------+
+|....K.....|
+|.......E..|
+|.......J..|
+|..........|
+|....F.MK..|
+|..........|
+|....E.....|
+|.....S....|
+|....W.....|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:7) at (4,7)
+John (Lives:3, Shells:9) at (2,7)
+Elle (Lives:3, Shells:8) at (6,4)
+Star (Lives:3, Shells:7) at (7,5)
+Megan (Lives:3, Shells:7) at (4,6)
+Ken (Lives:3, Shells:7) at (0,4)
+Emma (Lives:3, Shells:10) at (1,7)
+Freb (Lives:3, Shells:10) at (4,4)
+Wendy (Lives:3, Shells:7) at (8,4)
+--- STEP 8 ---
+THINK: Kidd is thinking strategically at position (4,7)
+LOOK: John looks around (2,7) - Found enemies: Emma at (1,7)
+SHOOT: Elle shoots right from (6,4) targeting (6,5) - Hit empty space
+THINK: Star is thinking strategically at position (7,5)
+THINK: Megan is thinking strategically at position (4,6)
+SHOOT: Ken shoots up from (0,4) - Shot went out of bounds
+SHOOT: Emma shoots right up from (1,7) targeting (0,8) - Hit empty space
+SHOOT: Freb shoots right from (4,4) targeting (4,5) - Hit empty space
+MOVE: Wendy moved from (8,4) to (7,3) - Direction: 4
+Battlefield:
++----------+
+|....K.....|
+|.......E..|
+|.......J..|
+|..........|
+|....F.MK..|
+|..........|
+|....E.....|
+|...W.S....|
+|..........|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:7) at (4,7)
+John (Lives:3, Shells:9) at (2,7)
+Elle (Lives:3, Shells:7) at (6,4)
+Star (Lives:3, Shells:7) at (7,5)
+Megan (Lives:3, Shells:7) at (4,6)
+Ken (Lives:3, Shells:6) at (0,4)
+Emma (Lives:3, Shells:9) at (1,7)
+Freb (Lives:3, Shells:9) at (4,4)
+Wendy (Lives:3, Shells:7) at (7,3)
+--- STEP 9 ---
+SHOOT: Kidd shoots down from (4,7) targeting (5,7) - Hit empty space
+LOOK: John looks around (2,7) - Found enemies: Emma at (1,7)
+THINK: Elle is thinking strategically at position (6,4)
+THINK: Star is thinking strategically at position (7,5)
+LOOK: Megan looks around (4,6) - Found enemies: Kidd at (4,7)
+MOVE: Ken moved from (0,4) to (1,4) - Direction: 1
+LOOK: Emma looks around (1,7) - Found enemies: John at (2,7)
+SHOOT: Freb shoots left down from (4,4) targeting (5,3) - Hit empty space
+SHOOT: Wendy shoots left down from (7,3) targeting (8,2) - Hit empty space
+Battlefield:
++----------+
+|..........|
+|....K..E..|
+|.......J..|
+|..........|
+|....F.MK..|
+|..........|
+|....E.....|
+|...W.S....|
+|..........|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:6) at (4,7)
+John (Lives:3, Shells:9) at (2,7)
+Elle (Lives:3, Shells:7) at (6,4)
+Star (Lives:3, Shells:7) at (7,5)
+Megan (Lives:3, Shells:7) at (4,6)
+Ken (Lives:3, Shells:6) at (1,4)
+Emma (Lives:3, Shells:9) at (1,7)
+Freb (Lives:3, Shells:8) at (4,4)
+Wendy (Lives:3, Shells:6) at (7,3)
+--- STEP 10 ---
+SHOOT: Kidd shoots right up from (4,7) targeting (3,8) - Hit empty space
+SHOOT: John shoots right down from (2,7) targeting (3,8) - Hit empty space
+LOOK: Elle looks around (6,4) - Found enemies: Wendy at (7,3), Star at (7,5)
+SHOOT: Star shoots right down from (7,5) targeting (8,6) - Hit empty space
+SHOOT: Megan shoots right down from (4,6) targeting (5,7) - Hit empty space
+MOVE: Ken moved from (1,4) to (0,5) - Direction: 5
+MOVE: Emma moved from (1,7) to (0,7) - Direction: 0
+LOOK: Freb looks around (4,4) - No enemies detected
+THINK: Wendy is thinking strategically at position (7,3)
+Battlefield:
++----------+
+|.....K.E..|
+|..........|
+|.......J..|
+|..........|
+|....F.MK..|
+|..........|
+|....E.....|
+|...W.S....|
+|..........|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:5) at (4,7)
+John (Lives:3, Shells:8) at (2,7)
+Elle (Lives:3, Shells:7) at (6,4)
+Star (Lives:3, Shells:6) at (7,5)
+Megan (Lives:3, Shells:6) at (4,6)
+Ken (Lives:3, Shells:6) at (0,5)
+Emma (Lives:3, Shells:9) at (0,7)
+Freb (Lives:3, Shells:8) at (4,4)
+Wendy (Lives:3, Shells:6) at (7,3)
+--- STEP 11 ---
+LOOK: Kidd looks around (4,7) - Found enemies: Megan at (4,6)
+THINK: John is thinking strategically at position (2,7)
+SHOOT: Elle shoots up from (6,4) targeting (5,4) - Hit empty space
+MOVE: Star moved from (7,5) to (6,5) - Direction: 0
+SHOOT: Megan shoots left from (4,6) targeting (4,5) - Hit empty space
+LOOK: Ken looks around (0,5) - No enemies detected
+LOOK: Emma looks around (0,7) - No enemies detected
+MOVE: Freb moved from (4,4) to (4,3) - Direction: 2
+MOVE: Wendy moved from (7,3) to (7,2) - Direction: 2
+Battlefield:
++----------+
+|.....K.E..|
+|..........|
+|.......J..|
+|..........|
+|...F..MK..|
+|..........|
+|....ES....|
+|..W.......|
+|..........|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:5) at (4,7)
+John (Lives:3, Shells:8) at (2,7)
+Elle (Lives:3, Shells:6) at (6,4)
+Star (Lives:3, Shells:6) at (6,5)
+Megan (Lives:3, Shells:5) at (4,6)
+Ken (Lives:3, Shells:6) at (0,5)
+Emma (Lives:3, Shells:9) at (0,7)
+Freb (Lives:3, Shells:8) at (4,3)
+Wendy (Lives:3, Shells:6) at (7,2)
+--- STEP 12 ---
+SHOOT: Kidd shoots left down from (4,7) targeting (5,6) - Hit empty space
+LOOK: John looks around (2,7) - No enemies detected
+MOVE: Elle moved from (6,4) to (5,4) - Direction: 0
+SHOOT: Star shoots left up from (6,5) targeting (5,4) - HIT Elle!
+DAMAGE: Elle lost a life (Lives remaining: 2)
+UPGRADE: Star upgraded Shooting
+SHOOTING_UPGRADE: Star → SemiAutoBot
+LOOK: Megan looks around (4,6) - Found enemies: Kidd at (4,7)
+THINK: Ken is thinking strategically at position (0,5)
+MOVE: Emma moved from (0,7) to (0,8) - Direction: 5
+MOVE: Freb moved from (4,3) to (3,2) - Direction: 4
+THINK: Wendy is thinking strategically at position (7,2)
+Battlefield:
++----------+
+|.....K..E.|
+|..........|
+|.......J..|
+|..F.......|
+|......MK..|
+|....E.....|
+|.....S....|
+|..W.......|
+|..........|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:4) at (4,7)
+John (Lives:3, Shells:8) at (2,7)
+Elle (Lives:2, Shells:6) at (5,4)
+Star (Lives:3, Shells:5) at (6,5)
+Megan (Lives:3, Shells:5) at (4,6)
+Ken (Lives:3, Shells:6) at (0,5)
+Emma (Lives:3, Shells:9) at (0,8)
+Freb (Lives:3, Shells:8) at (3,2)
+Wendy (Lives:3, Shells:6) at (7,2)
+--- STEP 13 ---
+MOVE: Kidd moved from (4,7) to (5,8) - Direction: 7
+SHOOT: John shoots up from (2,7) targeting (1,7) - Hit empty space
+LOOK: Elle looks around (5,4) - Found enemies: Star at (6,5)
+THINK: Star is thinking strategically at position (6,5)
+LOOK: Megan looks around (4,6) - No enemies detected
+THINK: Ken is thinking strategically at position (0,5)
+MOVE: Emma moved from (0,8) to (1,8) - Direction: 1
+THINK: Freb is thinking strategically at position (3,2)
+THINK: Wendy is thinking strategically at position (7,2)
+Battlefield:
++----------+
+|.....K....|
+|........E.|
+|.......J..|
+|..F.......|
+|......M...|
+|....E...K.|
+|.....S....|
+|..W.......|
+|..........|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:4) at (5,8)
+John (Lives:3, Shells:7) at (2,7)
+Elle (Lives:2, Shells:6) at (5,4)
+Star (Lives:3, Shells:5) at (6,5)
+Megan (Lives:3, Shells:5) at (4,6)
+Ken (Lives:3, Shells:6) at (0,5)
+Emma (Lives:3, Shells:9) at (1,8)
+Freb (Lives:3, Shells:8) at (3,2)
+Wendy (Lives:3, Shells:6) at (7,2)
+--- STEP 14 ---
+THINK: Kidd is thinking strategically at position (5,8)
+LOOK: John looks around (2,7) - Found enemies: Emma at (1,8)
+LOOK: Elle looks around (5,4) - Found enemies: Star at (6,5)
+THINK: Star is thinking strategically at position (6,5)
+MOVE: Megan moved from (4,6) to (3,5) - Direction: 4
+LOOK: Ken looks around (0,5) - No enemies detected
+THINK: Emma is thinking strategically at position (1,8)
+SHOOT: Freb shoots right down from (3,2) targeting (4,3) - Hit empty space
+THINK: Wendy is thinking strategically at position (7,2)
+Battlefield:
++----------+
+|.....K....|
+|........E.|
+|.......J..|
+|..F..M....|
+|..........|
+|....E...K.|
+|.....S....|
+|..W.......|
+|..........|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:4) at (5,8)
+John (Lives:3, Shells:7) at (2,7)
+Elle (Lives:2, Shells:6) at (5,4)
+Star (Lives:3, Shells:5) at (6,5)
+Megan (Lives:3, Shells:5) at (3,5)
+Ken (Lives:3, Shells:6) at (0,5)
+Emma (Lives:3, Shells:9) at (1,8)
+Freb (Lives:3, Shells:7) at (3,2)
+Wendy (Lives:3, Shells:6) at (7,2)
+--- STEP 15 ---
+THINK: Kidd is thinking strategically at position (5,8)
+MOVE: John moved from (2,7) to (1,6) - Direction: 4
+MOVE: Elle moved from (5,4) to (6,3) - Direction: 6
+THINK: Star is thinking strategically at position (6,5)
+THINK: Megan is thinking strategically at position (3,5)
+THINK: Ken is thinking strategically at position (0,5)
+THINK: Emma is thinking strategically at position (1,8)
+THINK: Freb is thinking strategically at position (3,2)
+SHOOT: Wendy shoots left from (7,2) targeting (7,1) - Hit empty space
+Battlefield:
++----------+
+|.....K....|
+|......J.E.|
+|..........|
+|..F..M....|
+|..........|
+|........K.|
+|...E.S....|
+|..W.......|
+|..........|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:4) at (5,8)
+John (Lives:3, Shells:7) at (1,6)
+Elle (Lives:2, Shells:6) at (6,3)
+Star (Lives:3, Shells:5) at (6,5)
+Megan (Lives:3, Shells:5) at (3,5)
+Ken (Lives:3, Shells:6) at (0,5)
+Emma (Lives:3, Shells:9) at (1,8)
+Freb (Lives:3, Shells:7) at (3,2)
+Wendy (Lives:3, Shells:5) at (7,2)
+--- STEP 16 ---
+SHOOT: Kidd shoots down from (5,8) targeting (6,8) - Hit empty space
+MOVE: John moved from (1,6) to (1,7) - Direction: 3
+LOOK: Elle looks around (6,3) - Found enemies: Wendy at (7,2)
+MOVE: Star moved from (6,5) to (7,5) - Direction: 1
+LOOK: Megan looks around (3,5) - No enemies detected
+LOOK: Ken looks around (0,5) - No enemies detected
+MOVE: Emma moved from (1,8) to (1,9) - Direction: 3
+THINK: Freb is thinking strategically at position (3,2)
+SHOOT: Wendy shoots right down from (7,2) targeting (8,3) - Hit empty space
+Battlefield:
++----------+
+|.....K....|
+|.......J.E|
+|..........|
+|..F..M....|
+|..........|
+|........K.|
+|...E......|
+|..W..S....|
+|..........|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:3) at (5,8)
+John (Lives:3, Shells:7) at (1,7)
+Elle (Lives:2, Shells:6) at (6,3)
+Star (Lives:3, Shells:5) at (7,5)
+Megan (Lives:3, Shells:5) at (3,5)
+Ken (Lives:3, Shells:6) at (0,5)
+Emma (Lives:3, Shells:9) at (1,9)
+Freb (Lives:3, Shells:7) at (3,2)
+Wendy (Lives:3, Shells:4) at (7,2)
+--- STEP 17 ---
+SHOOT: Kidd shoots right down from (5,8) targeting (6,9) - Hit empty space
+SHOOT: John shoots right up from (1,7) targeting (0,8) - Hit empty space
+LOOK: Elle looks around (6,3) - Found enemies: Wendy at (7,2)
+THINK: Star is thinking strategically at position (7,5)
+LOOK: Megan looks around (3,5) - No enemies detected
+MOVE: Ken moved from (0,5) to (0,4) - Direction: 4
+SHOOT: Emma shoots right up from (1,9) - Shot went out of bounds
+LOOK: Freb looks around (3,2) - No enemies detected
+SHOOT: Wendy shoots right up from (7,2) targeting (6,3) - HIT Elle!
+DAMAGE: Elle lost a life (Lives remaining: 1)
+UPGRADE: Wendy upgraded Shooting
+SHOOTING_UPGRADE: Wendy → ThirtyShotBot (shells=30)
+Battlefield:
++----------+
+|....K.....|
+|.......J.E|
+|..........|
+|..F..M....|
+|..........|
+|........K.|
+|...E......|
+|..W..S....|
+|..........|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:2) at (5,8)
+John (Lives:3, Shells:6) at (1,7)
+Elle (Lives:1, Shells:6) at (6,3)
+Star (Lives:3, Shells:5) at (7,5)
+Megan (Lives:3, Shells:5) at (3,5)
+Ken (Lives:3, Shells:6) at (0,4)
+Emma (Lives:3, Shells:8) at (1,9)
+Freb (Lives:3, Shells:7) at (3,2)
+Wendy (Lives:3, Shells:30) at (7,2)
+--- STEP 18 ---
+SHOOT: Kidd shoots left up from (5,8) targeting (4,7) - Hit empty space
+LOOK: John looks around (1,7) - No enemies detected
+SHOOT: Elle shoots left from (6,3) targeting (6,2) - Hit empty space
+SEMI_AUTO EMPTY: Star
+SHOOT: Megan shoots left from (3,5) targeting (3,4) - Hit empty space
+MOVE: Ken moved from (0,4) to (1,5) - Direction: 7
+MOVE: Emma moved from (1,9) to (1,8) - Direction: 2
+SHOOT: Freb shoots right up from (3,2) targeting (2,3) - Hit empty space
+MOVE: Wendy moved from (7,2) to (8,1) - Direction: 6
+Battlefield:
++----------+
+|..........|
+|.....K.JE.|
+|..........|
+|..F..M....|
+|..........|
+|........K.|
+|...E......|
+|.....S....|
+|.W........|
+|..........|
++----------+
+Robot Details:
+Kidd (Lives:3, Shells:1) at (5,8)
+John (Lives:3, Shells:6) at (1,7)
+Elle (Lives:1, Shells:5) at (6,3)
+Star (Lives:3, Shells:4) at (7,5)
+Megan (Lives:3, Shells:4) at (3,5)
+Ken (Lives:3, Shells:6) at (1,5)
+Emma (Lives:3, Shells:8) at (1,8)
+Freb (Lives:3, Shells:6) at (3,2)
+Wendy (Lives:3, Shells:30) at (8,1)
+--- STEP 19 ---
+OUT_OF_AMMO: Kidd has no shells left!
+DESTROYED: Kidd has been destroyed!
+SHOOT: Kidd shoots right from (5,8) targeting (5,9) - Hit empty space
+LOOK: John looks around (1,7) - Found enemies: Emma at (1,8)
+LOOK: Elle looks around (6,3) - No enemies detected
+LOOK: Star looks around (7,5) - No enemies detected
+LOOK: Megan looks around (3,5) - No enemies detected
+SHOOT: Ken shoots left from (1,5) targeting (1,4) - Hit empty space
+THINK: Emma is thinking strategically at position (1,8)
+MOVE: Freb moved from (3,2) to (4,3) - Direction: 7
+MOVE: Wendy moved from (8,1) to (7,1) - Direction: 0
+Battlefield:
++----------+
+|..........|
+|.....K.JE.|
+|..........|
+|.....M....|
+|...F......|
+|..........|
+|...E......|
+|.W...S....|
+|..........|
+|..........|
++----------+
+Robot Details:
+John (Lives:3, Shells:6) at (1,7)
+Elle (Lives:1, Shells:5) at (6,3)
+Star (Lives:3, Shells:4) at (7,5)
+Megan (Lives:3, Shells:4) at (3,5)
+Ken (Lives:3, Shells:5) at (1,5)
+Emma (Lives:3, Shells:8) at (1,8)
+Freb (Lives:3, Shells:6) at (4,3)
+Wendy (Lives:3, Shells:30) at (7,1)
+--- STEP 20 ---
+THINK: John is thinking strategically at position (1,7)
+LOOK: Elle looks around (6,3) - No enemies detected
+THINK: Star is thinking strategically at position (7,5)
+THINK: Megan is thinking strategically at position (3,5)
+LOOK: Ken looks around (1,5) - No enemies detected
+MOVE: Emma moved from (1,8) to (2,9) - Direction: 7
+SHOOT: Freb shoots right from (4,3) targeting (4,4) - Hit empty space
+SHOOT: Wendy shoots left up from (7,1) targeting (6,0) - Hit empty space
+Battlefield:
++----------+
+|..........|
+|.....K.J..|
+|.........E|
+|.....M....|
+|...F......|
+|..........|
+|...E......|
+|.W...S....|
+|..........|
+|..........|
++----------+
+Robot Details:
+John (Lives:3, Shells:6) at (1,7)
+Elle (Lives:1, Shells:5) at (6,3)
+Star (Lives:3, Shells:4) at (7,5)
+Megan (Lives:3, Shells:4) at (3,5)
+Ken (Lives:3, Shells:5) at (1,5)
+Emma (Lives:3, Shells:8) at (2,9)
+Freb (Lives:3, Shells:5) at (4,3)
+Wendy (Lives:3, Shells:29) at (7,1)
+=== SIMULATION COMPLETE ===
+SURVIVORS: John, Elle, Star, Megan, Ken, Emma, Freb, Wendy
+SURVIVOR_COUNT: 8
+====================================
+===== ACTION LOG END =====
